@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 // import { auth } from '../firebaseConfig';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import '../App.css'
+import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faWhatsapp, faTwitter, faDiscord, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faUser, faCoffee, faHome, faLock, faEnvelope } from '@fortawesome/free-solid-svg-icons';
